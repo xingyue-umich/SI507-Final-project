@@ -50,9 +50,10 @@ def combind_play_list(list_of_playlist):
 
 class Node:
     def __init__(self, song, attribute, songlst = []):
-        self.songlst = songlst
         self.song = song
+        self.attribute = attribute
         self.value = round(song[attribute],1)
+        self.songlst = songlst
         self.left = None
         self.right = None
        
@@ -199,7 +200,7 @@ features = combind_play_list([features_1, features_2, features_3, features_4, fe
 result = json.dumps(features, indent=2)
 # pprint(result)
 
-with open('sportify_data.json', 'w') as file:
+with open('spotify_data.json', 'w') as file:
     file.write(result)
 
 
@@ -223,7 +224,3 @@ for song in features:
 
 # print(valence_tree.root.songlst)
 # print(valence_tree.root.left.songlst)
-
-final_lst = get_recommendation(dancebility, valence)
-print_songs(final_lst)
-
