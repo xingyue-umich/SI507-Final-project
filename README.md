@@ -7,8 +7,6 @@ then users will get recommendations in the form of track url based on their requ
 
 ## Data collections
 
-------
-
 ### Data source
 
 - [Spotify API](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-several-audio-features)
@@ -52,7 +50,6 @@ Following are two features used in this project:
 
 ## Installing
 
-------
 In order to configure this project, please follow these steps:
 
 1. Clone the repository to your local system.
@@ -67,7 +64,6 @@ In order to configure this project, please follow these steps:
 
 ## Run the application
 
-------
 The "final.py" file will initiate the program.
 
 ``` python
@@ -90,7 +86,6 @@ https://api.spotify.com/v1/tracks/0Otf1ZfYNIjhqFIuJk0fsy
 
 ## Data Structure
 
-------
 **Binary search tree** has been used to orgainze the data based on the features e.g. danceability, valence.<br>
 
 ### Node
