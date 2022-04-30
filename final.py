@@ -224,3 +224,6 @@ for song in features:
 
 # print(valence_tree.root.songlst)
 # print(valence_tree.root.left.songlst)
+
+final_lst = get_recommendation(dancebility, valence)
+print_songs(final_lst)
