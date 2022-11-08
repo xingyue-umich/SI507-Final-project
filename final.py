@@ -1,5 +1,5 @@
 #################################
-##### Name: Xingyue Zhang   #####
+##### Name: Sherry  Zhang   #####
 ##### Uniqname: xingyuez    #####
 ##### SI 507 Final Project   ####
 ##### Song recommendations  #####
